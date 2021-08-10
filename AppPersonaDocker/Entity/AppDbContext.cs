@@ -13,5 +13,6 @@ namespace AppPersonaDocker.Entity
 
         }
         public DbSet<Libro> Libro { get; set; }
+        public DbSet<Persona> Persona { get; set; }
     }
 }
